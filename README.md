@@ -1,38 +1,19 @@
-# Hi, I'm Pawan 👋
+### Hi there 👋 I'm Pawan Acharya
 
-I'm a backend engineer in Mangalore, India. For the past 2.5 years I've been building and running serverless systems on AWS with Node.js, TypeScript and Python, for products in healthcare, fintech and HR SaaS.
+# 💫 About Me:
+🧑‍💻 Backend engineer with ~2.5 years building serverless systems on AWS for healthcare, fintech and HR SaaS products<br>⚙️ I work on the parts users don't see: scheduled jobs, event-driven services, login and session rules, and keeping each customer's data separate<br>🖥️ I also build the React web apps when a feature needs both sides<br>🤖 Currently exploring how AI coding agents can take on real feature work, see [claude-code-agent-workflow](https://github.com/Pawan-j-acharya/claude-code-agent-workflow)<br>🔭 I'm open to backend and full-stack engineering roles<br>📫 How to reach me: pawanachar20@gmail.com
 
-Most of my work is the part of a product users don't see: jobs that run on a schedule, events that trigger other services, login and session rules, and keeping one customer's data away from another's. I also work on the React web apps when a feature needs both sides.
+# 🏗️ What I've Worked On:
+🏥 **Patient alert pipeline:** a scheduled AWS Batch job that scans readings and sends alerts by push, SMS and email<br>🔐 **Google sign-in for existing users:** a Cognito trigger that links Google logins to existing accounts, so nobody ends up with two<br>🏢 **Tenant data isolation:** PostgreSQL Row-Level Security, so each company only ever sees its own rows<br>🔁 **One active session per user:** forced logout across every open tab with a WebSocket registry in DynamoDB<br>🔒 *Product code is in private company repos.*
 
-Lately I've been exploring how AI coding agents can take on real feature work without making things up, which led to the workflow below.
+# ✍️ Writing:
+📝 [How I built a centralized agentic workflow using Claude Code subagents](https://community.7edge.com/t/claude-code-subagents-how-i-built-a-centralized-agentic-workflow-using-subagents/400)<br>📝 [Multi-tenant isolation with PostgreSQL Row-Level Security](https://community.7edge.com/t/211)<br>📝 [Linking Google sign-in to existing Cognito users](https://community.7edge.com/t/224)
 
-I'm currently **open to backend and full-stack roles**.
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pawan-acharya-638584290/) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pawanachar20@gmail.com)
 
-## What I've worked on
+# 💻 Tech Stack:
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/aws_lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white) ![Amazon DynamoDB](https://img.shields.io/badge/dynamodb-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white) ![Serverless](https://img.shields.io/badge/serverless-%23FD5750.svg?style=flat-square&logo=serverless&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23C21325.svg?style=flat-square&logo=jest&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white) ![Claude Code](https://img.shields.io/badge/claude_code-D97757?style=flat-square&logo=claude&logoColor=white)
 
-My product work is in private company repos, so here's what it involved:
-
-- **Patient alert pipeline (healthcare):** a scheduled AWS Batch job that scans patient readings and sends alerts by push, SMS and email, with retries and safeguards against messaging test accounts.
-- **Google sign-in for existing users (fintech):** a Cognito trigger that links a Google login to an account that already exists, so the same person doesn't end up with two accounts.
-- **Tenant data isolation (HR SaaS):** PostgreSQL Row-Level Security so each company's queries only ever return its own rows, even if application code forgets a filter.
-- **One active session per user (healthcare):** forced logout across every open tab using a WebSocket connection registry in DynamoDB.
-
-## Open source
-
-- **[claude-code-agent-workflow](https://github.com/Pawan-j-acharya/claude-code-agent-workflow):** planner, critic and builder agents for Claude Code that take a ticket from plan to reviewed code, one slice at a time. On a real feature it used about 65% fewer tokens than Claude Code's built-in subagents. The first version failed, and the repo explains what I changed.
-
-## Writing
-
-- [How I built a centralized agentic workflow using Claude Code subagents](https://community.7edge.com/t/claude-code-subagents-how-i-built-a-centralized-agentic-workflow-using-subagents/400): what worked, what failed, and the token numbers.
-- [Multi-tenant isolation with PostgreSQL Row-Level Security](https://community.7edge.com/t/211): enforcing tenant boundaries in the database instead of in every query.
-- [Linking Google sign-in to existing Cognito users](https://community.7edge.com/t/224): avoiding duplicate accounts when users switch login methods.
-
-## Tools I use
-
-Node.js · TypeScript · Python · React · AWS (Lambda, API Gateway, Cognito, EventBridge, Batch, DynamoDB, S3) · MongoDB · PostgreSQL · Serverless Framework
-
-AWS Certified Developer – Associate · AWS Certified Cloud Practitioner
-
-## Get in touch
-
-[LinkedIn](https://www.linkedin.com/in/pawan-acharya-638584290/) · pawanachar20@gmail.com
+# 🏅 Certifications:
+![AWS Developer Associate](https://img.shields.io/badge/AWS_Certified-Developer_Associate-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900) ![AWS Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
